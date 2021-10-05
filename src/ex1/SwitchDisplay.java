@@ -12,7 +12,7 @@ public class SwitchDisplay {
      public static String inputStr(String message) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(message);
-        return scanner.next();
+        return scanner.nextline();
     }
 
     public static void main(String[] args) {
