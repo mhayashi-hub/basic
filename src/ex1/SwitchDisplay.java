@@ -4,18 +4,10 @@ import org.w3c.dom.ls.LSOutput;
 
 import java.util.Scanner;
 
-public class SwitchDisplay {
-    /**
-     * @param message setmessage
-     * @return String
-     */
-     public static String inputStr(String message) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(message);
-        return scanner.nextline();
-    }
+class SwitchDisplay {
 
-    public static void main(String[] args) {
+
+    static void main(String[] args) {
         String inputMessage = "";
         String selectKeyDisplay = "";
 
