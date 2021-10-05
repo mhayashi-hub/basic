@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class SwitchDisplay {
     /**
-     * @param message
+     * @param message setmessage
      * @return String
      */
      public static String inputStr(String message) {
