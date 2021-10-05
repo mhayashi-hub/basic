@@ -3,6 +3,10 @@ package ex1;
 import java.util.Scanner;
 
 public class CalcBmi {
+    /**
+     * @param message
+     * @return double
+     */
     // add request : input value from keybord/standard input
     static double inputDouble(String message) {
         Scanner scanner = new Scanner(System.in);

@@ -5,7 +5,11 @@ import org.w3c.dom.ls.LSOutput;
 import java.util.Scanner;
 
 public class SwitchDisplay {
-    static String inputStr(String message) {
+    /**
+     * @param message
+     * @return String
+     */
+     public static String inputStr(String message) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(message);
         return scanner.next();
