@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MaxMinSample3 {
     public static void main(String[] args) {
         // init array variables as int array type
-        int[] array = {20,30,10,50,40};
+        int[] array = {20,30,10,50,40,8,99,1};
 
         // set max and min value as temporal value
         int max = array[0];//仮の最大値として配列の最初の要素を代入
@@ -21,9 +21,9 @@ public class MaxMinSample3 {
         int i = 0;
         // while loop and judge min, max
         while (array.length - i > 0) {
-            if (max > array[i]) {
+            if (max < array[i]) {
                 max = array[i];
-            } else if (min < array[i]) {
+            } else if (min > array[i]) {
                 min = array[i];
             }
             i++;

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SumSample3 {
     public static void main(String[] args) {
         // init array variables
-        int[] array = {20, 30, 10, 50, 40};
+        int[] array = {20, 30, 10, 50, 40, 9, 99};
 
         // init sum variable
         int sum = 0;
